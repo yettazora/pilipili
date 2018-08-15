@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:util="http://www.springframework.org/schema/util"
+       xmlns:jee="http://www.springframework.org/schema/jee"
+       xmlns:tx="http://www.springframework.org/schema/tx"
+       xmlns:jpa="http://www.springframework.org/schema/data/jpa"
+       xmlns:mvc="http://www.springframework.org/schema/mvc"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd
+       http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util.xsd
+       http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx.xsd
+       http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc.xsd
+       http://www.springframework.org/schema/data/jpa http://www.springframework.org/schema/data/jpa/spring-jpa.xsd
+">
+    <!--开启包扫描,mvc只负责扫描控制层的包-->
+    <context:component-scan base-package="com.yetta.pilipili.controller">
+        <context:include-filter type="annotation" expression="org.springframework.stereotype.Controller"/>
+    </context:component-scan>
+
+    <!--启动mvc注解驱动-->
+    <mvc:annotation-driven/>
+
+    <!--处理静态资源-->
+    <mvc:default-servlet-handler/>
+
+    <!--配置视图解析器-->
+    <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+        <property name="prefix" value="/jsp/"/>
+        <property name="suffix" value=".jsp"/>
+    </bean>
+
+    <!--拦截器-->
+    <mvc:interceptors>
+        <!--可以配置多个拦截器,按照顺序执行-->
+        <!--登录验证拦截器-->
+        <mvc:interceptor>
+            <mvc:mapping path="/**"/>
+            <bean class="com.yetta.pilipili.interceptor.InitInterceptor"/>
+        </mvc:interceptor>
+    </mvc:interceptors>
+
+    <!--配置文件上传-->
+    <bean class="org.springframework.web.multipart.commons.CommonsMultipartResolver" id="multipartResolver">
+        <!--设置默认编码-->
+        <property name="defaultEncoding" value="utf-8"/>
+        <!--上传文件的总大小为5MB-->
+        <property name="maxUploadSize" value="5242440"/>
+    </bean>
+
+    <!--配置自定义的全局异常处理器,只要让异常类实现HandleExceptionResolver接口就是全局异常处理器-->
+    <bean class="com.yetta.pilipili.exception.AfterException"/>
+
+</beans>

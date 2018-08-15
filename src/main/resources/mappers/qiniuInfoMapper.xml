@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.yetta.pilipili.dao.dd.qiniuInfoMapper">
+  <resultMap id="BaseResultMap" type="com.yetta.pilipili.entity.qiniuInfo">
+    <result column="id" jdbcType="INTEGER" property="id" />
+    <result column="type" jdbcType="VARCHAR" property="type" />
+    <result column="ak" jdbcType="VARCHAR" property="ak" />
+    <result column="sk" jdbcType="VARCHAR" property="sk" />
+    <result column="bucket" jdbcType="VARCHAR" property="bucket" />
+    <result column="width" jdbcType="INTEGER" property="width" />
+    <result column="height" jdbcType="INTEGER" property="height" />
+    <result column="compress" jdbcType="INTEGER" property="compress" />
+    <result column="name" jdbcType="VARCHAR" property="name" />
+    <result column="domain" jdbcType="VARCHAR" property="domain" />
+  </resultMap>
+  <insert id="insert" parameterType="com.yetta.pilipili.entity.qiniuInfo">
+    insert into qiniu_info (id, type, ak, 
+      sk, bucket, width, 
+      height, compress, name, 
+      domain)
+    values (#{id,jdbcType=INTEGER}, #{type,jdbcType=VARCHAR}, #{ak,jdbcType=VARCHAR}, 
+      #{sk,jdbcType=VARCHAR}, #{bucket,jdbcType=VARCHAR}, #{width,jdbcType=INTEGER}, 
+      #{height,jdbcType=INTEGER}, #{compress,jdbcType=INTEGER}, #{name,jdbcType=VARCHAR}, 
+      #{domain,jdbcType=VARCHAR})
+  </insert>
+  <insert id="insertSelective" parameterType="com.yetta.pilipili.entity.qiniuInfo">
+    insert into qiniu_info
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="id != null">
+        id,
+      </if>
+      <if test="type != null">
+        type,
+      </if>
+      <if test="ak != null">
+        ak,
+      </if>
+      <if test="sk != null">
+        sk,
+      </if>
+      <if test="bucket != null">
+        bucket,
+      </if>
+      <if test="width != null">
+        width,
+      </if>
+      <if test="height != null">
+        height,
+      </if>
+      <if test="compress != null">
+        compress,
+      </if>
+      <if test="name != null">
+        name,
+      </if>
+      <if test="domain != null">
+        domain,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="id != null">
+        #{id,jdbcType=INTEGER},
+      </if>
+      <if test="type != null">
+        #{type,jdbcType=VARCHAR},
+      </if>
+      <if test="ak != null">
+        #{ak,jdbcType=VARCHAR},
+      </if>
+      <if test="sk != null">
+        #{sk,jdbcType=VARCHAR},
+      </if>
+      <if test="bucket != null">
+        #{bucket,jdbcType=VARCHAR},
+      </if>
+      <if test="width != null">
+        #{width,jdbcType=INTEGER},
+      </if>
+      <if test="height != null">
+        #{height,jdbcType=INTEGER},
+      </if>
+      <if test="compress != null">
+        #{compress,jdbcType=INTEGER},
+      </if>
+      <if test="name != null">
+        #{name,jdbcType=VARCHAR},
+      </if>
+      <if test="domain != null">
+        #{domain,jdbcType=VARCHAR},
+      </if>
+    </trim>
+  </insert>
+</mapper>

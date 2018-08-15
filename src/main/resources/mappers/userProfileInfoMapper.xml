@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.yetta.pilipili.dao.dd.userProfileInfoMapper">
+  <resultMap id="BaseResultMap" type="com.yetta.pilipili.entity.userProfileInfo">
+    <result column="id" jdbcType="INTEGER" property="id" />
+    <result column="user_id" jdbcType="INTEGER" property="userId" />
+    <result column="group_id" jdbcType="INTEGER" property="groupId" />
+    <result column="avatar" jdbcType="VARCHAR" property="avatar" />
+    <result column="sign_personal" jdbcType="VARCHAR" property="signPersonal" />
+    <result column="point" jdbcType="INTEGER" property="point" />
+  </resultMap>
+  <insert id="insert" parameterType="com.yetta.pilipili.entity.userProfileInfo">
+    insert into user_profile_info (id, user_id, group_id, 
+      avatar, sign_personal, point
+      )
+    values (#{id,jdbcType=INTEGER}, #{userId,jdbcType=INTEGER}, #{groupId,jdbcType=INTEGER}, 
+      #{avatar,jdbcType=VARCHAR}, #{signPersonal,jdbcType=VARCHAR}, #{point,jdbcType=INTEGER}
+      )
+  </insert>
+  <insert id="insertSelective" parameterType="com.yetta.pilipili.entity.userProfileInfo">
+    insert into user_profile_info
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="id != null">
+        id,
+      </if>
+      <if test="userId != null">
+        user_id,
+      </if>
+      <if test="groupId != null">
+        group_id,
+      </if>
+      <if test="avatar != null">
+        avatar,
+      </if>
+      <if test="signPersonal != null">
+        sign_personal,
+      </if>
+      <if test="point != null">
+        point,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="id != null">
+        #{id,jdbcType=INTEGER},
+      </if>
+      <if test="userId != null">
+        #{userId,jdbcType=INTEGER},
+      </if>
+      <if test="groupId != null">
+        #{groupId,jdbcType=INTEGER},
+      </if>
+      <if test="avatar != null">
+        #{avatar,jdbcType=VARCHAR},
+      </if>
+      <if test="signPersonal != null">
+        #{signPersonal,jdbcType=VARCHAR},
+      </if>
+      <if test="point != null">
+        #{point,jdbcType=INTEGER},
+      </if>
+    </trim>
+  </insert>
+</mapper>

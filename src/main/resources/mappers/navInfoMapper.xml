@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.yetta.pilipili.dao.dd.navInfoMapper">
+  <resultMap id="BaseResultMap" type="com.yetta.pilipili.entity.navInfo">
+    <result column="id" jdbcType="INTEGER" property="id" />
+    <result column="name" jdbcType="VARCHAR" property="name" />
+    <result column="link" jdbcType="VARCHAR" property="link" />
+    <result column="type" jdbcType="VARCHAR" property="type" />
+    <result column="sort" jdbcType="INTEGER" property="sort" />
+    <result column="is_index" jdbcType="INTEGER" property="isIndex" />
+    <result column="is_use" jdbcType="INTEGER" property="isUse" />
+    <result column="channel_id" jdbcType="INTEGER" property="channelId" />
+  </resultMap>
+  <insert id="insert" parameterType="com.yetta.pilipili.entity.navInfo">
+    insert into nav_info (id, name, link, 
+      type, sort, is_index, 
+      is_use, channel_id)
+    values (#{id,jdbcType=INTEGER}, #{name,jdbcType=VARCHAR}, #{link,jdbcType=VARCHAR}, 
+      #{type,jdbcType=VARCHAR}, #{sort,jdbcType=INTEGER}, #{isIndex,jdbcType=INTEGER}, 
+      #{isUse,jdbcType=INTEGER}, #{channelId,jdbcType=INTEGER})
+  </insert>
+  <insert id="insertSelective" parameterType="com.yetta.pilipili.entity.navInfo">
+    insert into nav_info
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="id != null">
+        id,
+      </if>
+      <if test="name != null">
+        name,
+      </if>
+      <if test="link != null">
+        link,
+      </if>
+      <if test="type != null">
+        type,
+      </if>
+      <if test="sort != null">
+        sort,
+      </if>
+      <if test="isIndex != null">
+        is_index,
+      </if>
+      <if test="isUse != null">
+        is_use,
+      </if>
+      <if test="channelId != null">
+        channel_id,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="id != null">
+        #{id,jdbcType=INTEGER},
+      </if>
+      <if test="name != null">
+        #{name,jdbcType=VARCHAR},
+      </if>
+      <if test="link != null">
+        #{link,jdbcType=VARCHAR},
+      </if>
+      <if test="type != null">
+        #{type,jdbcType=VARCHAR},
+      </if>
+      <if test="sort != null">
+        #{sort,jdbcType=INTEGER},
+      </if>
+      <if test="isIndex != null">
+        #{isIndex,jdbcType=INTEGER},
+      </if>
+      <if test="isUse != null">
+        #{isUse,jdbcType=INTEGER},
+      </if>
+      <if test="channelId != null">
+        #{channelId,jdbcType=INTEGER},
+      </if>
+    </trim>
+  </insert>
+</mapper>

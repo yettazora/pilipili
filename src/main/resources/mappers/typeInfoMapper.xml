@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.yetta.pilipili.dao.dd.typeInfoMapper">
+  <resultMap id="BaseResultMap" type="com.yetta.pilipili.entity.typeInfo">
+    <result column="id" jdbcType="INTEGER" property="id" />
+    <result column="name" jdbcType="VARCHAR" property="name" />
+    <result column="sort" jdbcType="INTEGER" property="sort" />
+    <result column="profile_template" jdbcType="VARCHAR" property="profileTemplate" />
+    <result column="play_template" jdbcType="VARCHAR" property="playTemplate" />
+  </resultMap>
+  <insert id="insert" parameterType="com.yetta.pilipili.entity.typeInfo">
+    insert into type_info (id, name, sort, 
+      profile_template, play_template)
+    values (#{id,jdbcType=INTEGER}, #{name,jdbcType=VARCHAR}, #{sort,jdbcType=INTEGER}, 
+      #{profileTemplate,jdbcType=VARCHAR}, #{playTemplate,jdbcType=VARCHAR})
+  </insert>
+  <insert id="insertSelective" parameterType="com.yetta.pilipili.entity.typeInfo">
+    insert into type_info
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="id != null">
+        id,
+      </if>
+      <if test="name != null">
+        name,
+      </if>
+      <if test="sort != null">
+        sort,
+      </if>
+      <if test="profileTemplate != null">
+        profile_template,
+      </if>
+      <if test="playTemplate != null">
+        play_template,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="id != null">
+        #{id,jdbcType=INTEGER},
+      </if>
+      <if test="name != null">
+        #{name,jdbcType=VARCHAR},
+      </if>
+      <if test="sort != null">
+        #{sort,jdbcType=INTEGER},
+      </if>
+      <if test="profileTemplate != null">
+        #{profileTemplate,jdbcType=VARCHAR},
+      </if>
+      <if test="playTemplate != null">
+        #{playTemplate,jdbcType=VARCHAR},
+      </if>
+    </trim>
+  </insert>
+</mapper>

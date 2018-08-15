@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.yetta.pilipili.dao.dd.videoInfoMapper">
+  <resultMap id="BaseResultMap" type="com.yetta.pilipili.entity.videoInfo">
+    <result column="video_id" jdbcType="INTEGER" property="videoId" />
+    <result column="media_id" jdbcType="INTEGER" property="mediaId" />
+    <result column="num" jdbcType="VARCHAR" property="num" />
+    <result column="title" jdbcType="VARCHAR" property="title" />
+    <result column="image" jdbcType="VARCHAR" property="image" />
+    <result column="url" jdbcType="VARCHAR" property="url" />
+    <result column="view_count" jdbcType="INTEGER" property="viewCount" />
+    <result column="player_id" jdbcType="INTEGER" property="playerId" />
+    <result column="sort" jdbcType="INTEGER" property="sort" />
+    <result column="status" jdbcType="INTEGER" property="status" />
+    <result column="remark" jdbcType="VARCHAR" property="remark" />
+    <result column="power" jdbcType="INTEGER" property="power" />
+    <result column="point" jdbcType="INTEGER" property="point" />
+    <result column="update_time" jdbcType="TIMESTAMP" property="updateTime" />
+    <result column="view_count_day" jdbcType="INTEGER" property="viewCountDay" />
+    <result column="view_count_week" jdbcType="INTEGER" property="viewCountWeek" />
+    <result column="view_count_month" jdbcType="INTEGER" property="viewCountMonth" />
+    <result column="view_count_year" jdbcType="INTEGER" property="viewCountYear" />
+  </resultMap>
+  <insert id="insert" parameterType="com.yetta.pilipili.entity.videoInfo">
+    insert into video_info (video_id, media_id, num, 
+      title, image, url, 
+      view_count, player_id, sort, 
+      status, remark, power, 
+      point, update_time, view_count_day, 
+      view_count_week, view_count_month, view_count_year
+      )
+    values (#{videoId,jdbcType=INTEGER}, #{mediaId,jdbcType=INTEGER}, #{num,jdbcType=VARCHAR}, 
+      #{title,jdbcType=VARCHAR}, #{image,jdbcType=VARCHAR}, #{url,jdbcType=VARCHAR}, 
+      #{viewCount,jdbcType=INTEGER}, #{playerId,jdbcType=INTEGER}, #{sort,jdbcType=INTEGER}, 
+      #{status,jdbcType=INTEGER}, #{remark,jdbcType=VARCHAR}, #{power,jdbcType=INTEGER}, 
+      #{point,jdbcType=INTEGER}, #{updateTime,jdbcType=TIMESTAMP}, #{viewCountDay,jdbcType=INTEGER}, 
+      #{viewCountWeek,jdbcType=INTEGER}, #{viewCountMonth,jdbcType=INTEGER}, #{viewCountYear,jdbcType=INTEGER}
+      )
+  </insert>
+  <insert id="insertSelective" parameterType="com.yetta.pilipili.entity.videoInfo">
+    insert into video_info
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="videoId != null">
+        video_id,
+      </if>
+      <if test="mediaId != null">
+        media_id,
+      </if>
+      <if test="num != null">
+        num,
+      </if>
+      <if test="title != null">
+        title,
+      </if>
+      <if test="image != null">
+        image,
+      </if>
+      <if test="url != null">
+        url,
+      </if>
+      <if test="viewCount != null">
+        view_count,
+      </if>
+      <if test="playerId != null">
+        player_id,
+      </if>
+      <if test="sort != null">
+        sort,
+      </if>
+      <if test="status != null">
+        status,
+      </if>
+      <if test="remark != null">
+        remark,
+      </if>
+      <if test="power != null">
+        power,
+      </if>
+      <if test="point != null">
+        point,
+      </if>
+      <if test="updateTime != null">
+        update_time,
+      </if>
+      <if test="viewCountDay != null">
+        view_count_day,
+      </if>
+      <if test="viewCountWeek != null">
+        view_count_week,
+      </if>
+      <if test="viewCountMonth != null">
+        view_count_month,
+      </if>
+      <if test="viewCountYear != null">
+        view_count_year,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="videoId != null">
+        #{videoId,jdbcType=INTEGER},
+      </if>
+      <if test="mediaId != null">
+        #{mediaId,jdbcType=INTEGER},
+      </if>
+      <if test="num != null">
+        #{num,jdbcType=VARCHAR},
+      </if>
+      <if test="title != null">
+        #{title,jdbcType=VARCHAR},
+      </if>
+      <if test="image != null">
+        #{image,jdbcType=VARCHAR},
+      </if>
+      <if test="url != null">
+        #{url,jdbcType=VARCHAR},
+      </if>
+      <if test="viewCount != null">
+        #{viewCount,jdbcType=INTEGER},
+      </if>
+      <if test="playerId != null">
+        #{playerId,jdbcType=INTEGER},
+      </if>
+      <if test="sort != null">
+        #{sort,jdbcType=INTEGER},
+      </if>
+      <if test="status != null">
+        #{status,jdbcType=INTEGER},
+      </if>
+      <if test="remark != null">
+        #{remark,jdbcType=VARCHAR},
+      </if>
+      <if test="power != null">
+        #{power,jdbcType=INTEGER},
+      </if>
+      <if test="point != null">
+        #{point,jdbcType=INTEGER},
+      </if>
+      <if test="updateTime != null">
+        #{updateTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="viewCountDay != null">
+        #{viewCountDay,jdbcType=INTEGER},
+      </if>
+      <if test="viewCountWeek != null">
+        #{viewCountWeek,jdbcType=INTEGER},
+      </if>
+      <if test="viewCountMonth != null">
+        #{viewCountMonth,jdbcType=INTEGER},
+      </if>
+      <if test="viewCountYear != null">
+        #{viewCountYear,jdbcType=INTEGER},
+      </if>
+    </trim>
+  </insert>
+</mapper>

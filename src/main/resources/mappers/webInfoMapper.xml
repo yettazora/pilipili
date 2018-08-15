@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.yetta.pilipili.dao.dd.webInfoMapper">
+  <resultMap id="BaseResultMap" type="com.yetta.pilipili.entity.webInfo">
+    <result column="name" jdbcType="VARCHAR" property="name" />
+    <result column="domain" jdbcType="VARCHAR" property="domain" />
+    <result column="email" jdbcType="VARCHAR" property="email" />
+    <result column="record_number" jdbcType="VARCHAR" property="recordNumber" />
+    <result column="statistical_code" jdbcType="VARCHAR" property="statisticalCode" />
+    <result column="id" jdbcType="INTEGER" property="id" />
+  </resultMap>
+  <insert id="insert" parameterType="com.yetta.pilipili.entity.webInfo">
+    insert into web_info (name, domain, email, 
+      record_number, statistical_code, id
+      )
+    values (#{name,jdbcType=VARCHAR}, #{domain,jdbcType=VARCHAR}, #{email,jdbcType=VARCHAR}, 
+      #{recordNumber,jdbcType=VARCHAR}, #{statisticalCode,jdbcType=VARCHAR}, #{id,jdbcType=INTEGER}
+      )
+  </insert>
+  <insert id="insertSelective" parameterType="com.yetta.pilipili.entity.webInfo">
+    insert into web_info
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="name != null">
+        name,
+      </if>
+      <if test="domain != null">
+        domain,
+      </if>
+      <if test="email != null">
+        email,
+      </if>
+      <if test="recordNumber != null">
+        record_number,
+      </if>
+      <if test="statisticalCode != null">
+        statistical_code,
+      </if>
+      <if test="id != null">
+        id,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="name != null">
+        #{name,jdbcType=VARCHAR},
+      </if>
+      <if test="domain != null">
+        #{domain,jdbcType=VARCHAR},
+      </if>
+      <if test="email != null">
+        #{email,jdbcType=VARCHAR},
+      </if>
+      <if test="recordNumber != null">
+        #{recordNumber,jdbcType=VARCHAR},
+      </if>
+      <if test="statisticalCode != null">
+        #{statisticalCode,jdbcType=VARCHAR},
+      </if>
+      <if test="id != null">
+        #{id,jdbcType=INTEGER},
+      </if>
+    </trim>
+  </insert>
+</mapper>

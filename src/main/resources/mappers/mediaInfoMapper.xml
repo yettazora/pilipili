@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.yetta.pilipili.dao.dd.mediaInfoMapper">
+  <resultMap id="BaseResultMap" type="com.yetta.pilipili.entity.mediaInfo">
+    <result column="media_id" jdbcType="INTEGER" property="mediaId" />
+    <result column="update_time" jdbcType="TIMESTAMP" property="updateTime" />
+    <result column="status" jdbcType="INTEGER" property="status" />
+    <result column="haibao" jdbcType="VARCHAR" property="haibao" />
+    <result column="fengmian" jdbcType="VARCHAR" property="fengmian" />
+    <result column="biaoti" jdbcType="VARCHAR" property="biaoti" />
+    <result column="kandian" jdbcType="VARCHAR" property="kandian" />
+    <result column="jianjie" jdbcType="VARCHAR" property="jianjie" />
+    <result column="tag" jdbcType="VARCHAR" property="tag" />
+    <result column="zongjishu" jdbcType="VARCHAR" property="zongjishu" />
+    <result column="bieming" jdbcType="VARCHAR" property="bieming" />
+    <result column="type_id" jdbcType="INTEGER" property="typeId" />
+    <result column="dafengmian" jdbcType="VARCHAR" property="dafengmian" />
+    <result column="has_video" jdbcType="INTEGER" property="hasVideo" />
+  </resultMap>
+  <insert id="insert" parameterType="com.yetta.pilipili.entity.mediaInfo">
+    insert into media_info (media_id, update_time, status, 
+      haibao, fengmian, biaoti, 
+      kandian, jianjie, tag, 
+      zongjishu, bieming, type_id, 
+      dafengmian, has_video)
+    values (#{mediaId,jdbcType=INTEGER}, #{updateTime,jdbcType=TIMESTAMP}, #{status,jdbcType=INTEGER}, 
+      #{haibao,jdbcType=VARCHAR}, #{fengmian,jdbcType=VARCHAR}, #{biaoti,jdbcType=VARCHAR}, 
+      #{kandian,jdbcType=VARCHAR}, #{jianjie,jdbcType=VARCHAR}, #{tag,jdbcType=VARCHAR}, 
+      #{zongjishu,jdbcType=VARCHAR}, #{bieming,jdbcType=VARCHAR}, #{typeId,jdbcType=INTEGER}, 
+      #{dafengmian,jdbcType=VARCHAR}, #{hasVideo,jdbcType=INTEGER})
+  </insert>
+  <insert id="insertSelective" parameterType="com.yetta.pilipili.entity.mediaInfo">
+    insert into media_info
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="mediaId != null">
+        media_id,
+      </if>
+      <if test="updateTime != null">
+        update_time,
+      </if>
+      <if test="status != null">
+        status,
+      </if>
+      <if test="haibao != null">
+        haibao,
+      </if>
+      <if test="fengmian != null">
+        fengmian,
+      </if>
+      <if test="biaoti != null">
+        biaoti,
+      </if>
+      <if test="kandian != null">
+        kandian,
+      </if>
+      <if test="jianjie != null">
+        jianjie,
+      </if>
+      <if test="tag != null">
+        tag,
+      </if>
+      <if test="zongjishu != null">
+        zongjishu,
+      </if>
+      <if test="bieming != null">
+        bieming,
+      </if>
+      <if test="typeId != null">
+        type_id,
+      </if>
+      <if test="dafengmian != null">
+        dafengmian,
+      </if>
+      <if test="hasVideo != null">
+        has_video,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="mediaId != null">
+        #{mediaId,jdbcType=INTEGER},
+      </if>
+      <if test="updateTime != null">
+        #{updateTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="status != null">
+        #{status,jdbcType=INTEGER},
+      </if>
+      <if test="haibao != null">
+        #{haibao,jdbcType=VARCHAR},
+      </if>
+      <if test="fengmian != null">
+        #{fengmian,jdbcType=VARCHAR},
+      </if>
+      <if test="biaoti != null">
+        #{biaoti,jdbcType=VARCHAR},
+      </if>
+      <if test="kandian != null">
+        #{kandian,jdbcType=VARCHAR},
+      </if>
+      <if test="jianjie != null">
+        #{jianjie,jdbcType=VARCHAR},
+      </if>
+      <if test="tag != null">
+        #{tag,jdbcType=VARCHAR},
+      </if>
+      <if test="zongjishu != null">
+        #{zongjishu,jdbcType=VARCHAR},
+      </if>
+      <if test="bieming != null">
+        #{bieming,jdbcType=VARCHAR},
+      </if>
+      <if test="typeId != null">
+        #{typeId,jdbcType=INTEGER},
+      </if>
+      <if test="dafengmian != null">
+        #{dafengmian,jdbcType=VARCHAR},
+      </if>
+      <if test="hasVideo != null">
+        #{hasVideo,jdbcType=INTEGER},
+      </if>
+    </trim>
+  </insert>
+</mapper>

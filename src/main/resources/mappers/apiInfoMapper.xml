@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.yetta.pilipili.dao.dd.apiInfoMapper">
+  <resultMap id="BaseResultMap" type="com.yetta.pilipili.entity.apiInfo">
+    <result column="id" jdbcType="INTEGER" property="id" />
+    <result column="name" jdbcType="VARCHAR" property="name" />
+    <result column="sort" jdbcType="INTEGER" property="sort" />
+    <result column="type" jdbcType="VARCHAR" property="type" />
+    <result column="leixing" jdbcType="VARCHAR" property="leixing" />
+    <result column="diqu" jdbcType="VARCHAR" property="diqu" />
+    <result column="nianfen" jdbcType="VARCHAR" property="nianfen" />
+    <result column="zhuangtai" jdbcType="VARCHAR" property="zhuangtai" />
+    <result column="zifei" jdbcType="VARCHAR" property="zifei" />
+    <result column="xingqi" jdbcType="VARCHAR" property="xingqi" />
+    <result column="type_id" jdbcType="VARCHAR" property="typeId" />
+    <result column="field" jdbcType="VARCHAR" property="field" />
+    <result column="num" jdbcType="INTEGER" property="num" />
+    <result column="tag" jdbcType="VARCHAR" property="tag" />
+    <result column="select_video" jdbcType="INTEGER" property="selectVideo" />
+    <result column="kandian" jdbcType="VARCHAR" property="kandian" />
+    <result column="zongjishu" jdbcType="VARCHAR" property="zongjishu" />
+    <result column="shangyingnianfen" jdbcType="VARCHAR" property="shangyingnianfen" />
+    <result column="fengge" jdbcType="VARCHAR" property="fengge" />
+    <result column="shengyou" jdbcType="VARCHAR" property="shengyou" />
+    <result column="rank_type" jdbcType="VARCHAR" property="rankType" />
+    <result column="cache_time" jdbcType="VARCHAR" property="cacheTime" />
+  </resultMap>
+  <insert id="insert" parameterType="com.yetta.pilipili.entity.apiInfo">
+    insert into api_info (id, name, sort, 
+      type, leixing, diqu, 
+      nianfen, zhuangtai, zifei, 
+      xingqi, type_id, field, 
+      num, tag, select_video, 
+      kandian, zongjishu, shangyingnianfen, 
+      fengge, shengyou, rank_type, 
+      cache_time)
+    values (#{id,jdbcType=INTEGER}, #{name,jdbcType=VARCHAR}, #{sort,jdbcType=INTEGER}, 
+      #{type,jdbcType=VARCHAR}, #{leixing,jdbcType=VARCHAR}, #{diqu,jdbcType=VARCHAR}, 
+      #{nianfen,jdbcType=VARCHAR}, #{zhuangtai,jdbcType=VARCHAR}, #{zifei,jdbcType=VARCHAR}, 
+      #{xingqi,jdbcType=VARCHAR}, #{typeId,jdbcType=VARCHAR}, #{field,jdbcType=VARCHAR}, 
+      #{num,jdbcType=INTEGER}, #{tag,jdbcType=VARCHAR}, #{selectVideo,jdbcType=INTEGER}, 
+      #{kandian,jdbcType=VARCHAR}, #{zongjishu,jdbcType=VARCHAR}, #{shangyingnianfen,jdbcType=VARCHAR}, 
+      #{fengge,jdbcType=VARCHAR}, #{shengyou,jdbcType=VARCHAR}, #{rankType,jdbcType=VARCHAR}, 
+      #{cacheTime,jdbcType=VARCHAR})
+  </insert>
+  <insert id="insertSelective" parameterType="com.yetta.pilipili.entity.apiInfo">
+    insert into api_info
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="id != null">
+        id,
+      </if>
+      <if test="name != null">
+        name,
+      </if>
+      <if test="sort != null">
+        sort,
+      </if>
+      <if test="type != null">
+        type,
+      </if>
+      <if test="leixing != null">
+        leixing,
+      </if>
+      <if test="diqu != null">
+        diqu,
+      </if>
+      <if test="nianfen != null">
+        nianfen,
+      </if>
+      <if test="zhuangtai != null">
+        zhuangtai,
+      </if>
+      <if test="zifei != null">
+        zifei,
+      </if>
+      <if test="xingqi != null">
+        xingqi,
+      </if>
+      <if test="typeId != null">
+        type_id,
+      </if>
+      <if test="field != null">
+        field,
+      </if>
+      <if test="num != null">
+        num,
+      </if>
+      <if test="tag != null">
+        tag,
+      </if>
+      <if test="selectVideo != null">
+        select_video,
+      </if>
+      <if test="kandian != null">
+        kandian,
+      </if>
+      <if test="zongjishu != null">
+        zongjishu,
+      </if>
+      <if test="shangyingnianfen != null">
+        shangyingnianfen,
+      </if>
+      <if test="fengge != null">
+        fengge,
+      </if>
+      <if test="shengyou != null">
+        shengyou,
+      </if>
+      <if test="rankType != null">
+        rank_type,
+      </if>
+      <if test="cacheTime != null">
+        cache_time,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="id != null">
+        #{id,jdbcType=INTEGER},
+      </if>
+      <if test="name != null">
+        #{name,jdbcType=VARCHAR},
+      </if>
+      <if test="sort != null">
+        #{sort,jdbcType=INTEGER},
+      </if>
+      <if test="type != null">
+        #{type,jdbcType=VARCHAR},
+      </if>
+      <if test="leixing != null">
+        #{leixing,jdbcType=VARCHAR},
+      </if>
+      <if test="diqu != null">
+        #{diqu,jdbcType=VARCHAR},
+      </if>
+      <if test="nianfen != null">
+        #{nianfen,jdbcType=VARCHAR},
+      </if>
+      <if test="zhuangtai != null">
+        #{zhuangtai,jdbcType=VARCHAR},
+      </if>
+      <if test="zifei != null">
+        #{zifei,jdbcType=VARCHAR},
+      </if>
+      <if test="xingqi != null">
+        #{xingqi,jdbcType=VARCHAR},
+      </if>
+      <if test="typeId != null">
+        #{typeId,jdbcType=VARCHAR},
+      </if>
+      <if test="field != null">
+        #{field,jdbcType=VARCHAR},
+      </if>
+      <if test="num != null">
+        #{num,jdbcType=INTEGER},
+      </if>
+      <if test="tag != null">
+        #{tag,jdbcType=VARCHAR},
+      </if>
+      <if test="selectVideo != null">
+        #{selectVideo,jdbcType=INTEGER},
+      </if>
+      <if test="kandian != null">
+        #{kandian,jdbcType=VARCHAR},
+      </if>
+      <if test="zongjishu != null">
+        #{zongjishu,jdbcType=VARCHAR},
+      </if>
+      <if test="shangyingnianfen != null">
+        #{shangyingnianfen,jdbcType=VARCHAR},
+      </if>
+      <if test="fengge != null">
+        #{fengge,jdbcType=VARCHAR},
+      </if>
+      <if test="shengyou != null">
+        #{shengyou,jdbcType=VARCHAR},
+      </if>
+      <if test="rankType != null">
+        #{rankType,jdbcType=VARCHAR},
+      </if>
+      <if test="cacheTime != null">
+        #{cacheTime,jdbcType=VARCHAR},
+      </if>
+    </trim>
+  </insert>
+</mapper>

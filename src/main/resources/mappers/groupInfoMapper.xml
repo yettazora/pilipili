@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.yetta.pilipili.dao.dd.groupInfoMapper">
+  <resultMap id="BaseResultMap" type="com.yetta.pilipili.entity.groupInfo">
+    <result column="id" jdbcType="INTEGER" property="id" />
+    <result column="name" jdbcType="VARCHAR" property="name" />
+    <result column="power" jdbcType="INTEGER" property="power" />
+    <result column="type" jdbcType="VARCHAR" property="type" />
+    <result column="sort" jdbcType="INTEGER" property="sort" />
+  </resultMap>
+  <insert id="insert" parameterType="com.yetta.pilipili.entity.groupInfo">
+    insert into group_info (id, name, power, 
+      type, sort)
+    values (#{id,jdbcType=INTEGER}, #{name,jdbcType=VARCHAR}, #{power,jdbcType=INTEGER}, 
+      #{type,jdbcType=VARCHAR}, #{sort,jdbcType=INTEGER})
+  </insert>
+  <insert id="insertSelective" parameterType="com.yetta.pilipili.entity.groupInfo">
+    insert into group_info
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="id != null">
+        id,
+      </if>
+      <if test="name != null">
+        name,
+      </if>
+      <if test="power != null">
+        power,
+      </if>
+      <if test="type != null">
+        type,
+      </if>
+      <if test="sort != null">
+        sort,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="id != null">
+        #{id,jdbcType=INTEGER},
+      </if>
+      <if test="name != null">
+        #{name,jdbcType=VARCHAR},
+      </if>
+      <if test="power != null">
+        #{power,jdbcType=INTEGER},
+      </if>
+      <if test="type != null">
+        #{type,jdbcType=VARCHAR},
+      </if>
+      <if test="sort != null">
+        #{sort,jdbcType=INTEGER},
+      </if>
+    </trim>
+  </insert>
+</mapper>

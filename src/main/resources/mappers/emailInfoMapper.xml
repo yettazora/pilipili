@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.yetta.pilipili.dao.dd.emailInfoMapper">
+  <resultMap id="BaseResultMap" type="com.yetta.pilipili.entity.emailInfo">
+    <result column="id" jdbcType="INTEGER" property="id" />
+    <result column="smtp" jdbcType="VARCHAR" property="smtp" />
+    <result column="port" jdbcType="INTEGER" property="port" />
+    <result column="email" jdbcType="VARCHAR" property="email" />
+    <result column="password" jdbcType="VARCHAR" property="password" />
+  </resultMap>
+  <insert id="insert" parameterType="com.yetta.pilipili.entity.emailInfo">
+    insert into email_info (id, smtp, port, 
+      email, password)
+    values (#{id,jdbcType=INTEGER}, #{smtp,jdbcType=VARCHAR}, #{port,jdbcType=INTEGER}, 
+      #{email,jdbcType=VARCHAR}, #{password,jdbcType=VARCHAR})
+  </insert>
+  <insert id="insertSelective" parameterType="com.yetta.pilipili.entity.emailInfo">
+    insert into email_info
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="id != null">
+        id,
+      </if>
+      <if test="smtp != null">
+        smtp,
+      </if>
+      <if test="port != null">
+        port,
+      </if>
+      <if test="email != null">
+        email,
+      </if>
+      <if test="password != null">
+        password,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="id != null">
+        #{id,jdbcType=INTEGER},
+      </if>
+      <if test="smtp != null">
+        #{smtp,jdbcType=VARCHAR},
+      </if>
+      <if test="port != null">
+        #{port,jdbcType=INTEGER},
+      </if>
+      <if test="email != null">
+        #{email,jdbcType=VARCHAR},
+      </if>
+      <if test="password != null">
+        #{password,jdbcType=VARCHAR},
+      </if>
+    </trim>
+  </insert>
+</mapper>

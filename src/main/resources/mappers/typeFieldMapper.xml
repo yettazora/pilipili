@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.yetta.pilipili.dao.dd.typeFieldMapper">
+  <resultMap id="BaseResultMap" type="com.yetta.pilipili.entity.typeField">
+    <result column="id" jdbcType="INTEGER" property="id" />
+    <result column="type_id" jdbcType="INTEGER" property="typeId" />
+    <result column="field_id" jdbcType="INTEGER" property="fieldId" />
+    <result column="is_screen" jdbcType="INTEGER" property="isScreen" />
+    <result column="sort" jdbcType="INTEGER" property="sort" />
+    <result column="is_required" jdbcType="INTEGER" property="isRequired" />
+  </resultMap>
+  <insert id="insert" parameterType="com.yetta.pilipili.entity.typeField">
+    insert into type_field (id, type_id, field_id, 
+      is_screen, sort, is_required
+      )
+    values (#{id,jdbcType=INTEGER}, #{typeId,jdbcType=INTEGER}, #{fieldId,jdbcType=INTEGER}, 
+      #{isScreen,jdbcType=INTEGER}, #{sort,jdbcType=INTEGER}, #{isRequired,jdbcType=INTEGER}
+      )
+  </insert>
+  <insert id="insertSelective" parameterType="com.yetta.pilipili.entity.typeField">
+    insert into type_field
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="id != null">
+        id,
+      </if>
+      <if test="typeId != null">
+        type_id,
+      </if>
+      <if test="fieldId != null">
+        field_id,
+      </if>
+      <if test="isScreen != null">
+        is_screen,
+      </if>
+      <if test="sort != null">
+        sort,
+      </if>
+      <if test="isRequired != null">
+        is_required,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="id != null">
+        #{id,jdbcType=INTEGER},
+      </if>
+      <if test="typeId != null">
+        #{typeId,jdbcType=INTEGER},
+      </if>
+      <if test="fieldId != null">
+        #{fieldId,jdbcType=INTEGER},
+      </if>
+      <if test="isScreen != null">
+        #{isScreen,jdbcType=INTEGER},
+      </if>
+      <if test="sort != null">
+        #{sort,jdbcType=INTEGER},
+      </if>
+      <if test="isRequired != null">
+        #{isRequired,jdbcType=INTEGER},
+      </if>
+    </trim>
+  </insert>
+</mapper>
