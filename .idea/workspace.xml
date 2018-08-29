@@ -1,0 +1,1820 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="pilipili:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/src/main/java/com/yetta/pilipili/service/impl/UserInfoServiceImpl.java" description="userToken=Base64.decodeBase64(userToken).toString(..." line="178" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b666c68c-7631-4150-adcf-a049fedeab4f" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_11.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_6_0.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__redis_clients_jedis_2_9_0.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/json_lib_2_4_jdk15.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/yetta/pilipili/controller/APIController.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/yetta/pilipili/controller/CommentInfoController.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/yetta/pilipili/controller/ReplyInfoController.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/yetta/pilipili/controller/UserInfoController.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/yetta/pilipili/controller/UserProfileInfoController.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/yetta/pilipili/controller/admin/AdminAction.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/yetta/pilipili/controller/admin/EmailInfoAction.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/yetta/pilipili/controller/admin/GroupInfoAction.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/yetta/pilipili/controller/admin/MediaInfoAction.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/yetta/pilipili/controller/admin/QiniuInfoAction.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/yetta/pilipili/controller/admin/UserAction.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/yetta/pilipili/controller/admin/VideoInfoAction.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/yetta/pilipili/controller/portal/PortalController.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/yetta/pilipili/dao/ChannelInfoMapper.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/yetta/pilipili/dao/CommentInfoMapper.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/yetta/pilipili/dao/EmailInfoMapper.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/yetta/pilipili/dao/FieldInfoMapper.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/yetta/pilipili/dao/FieldProfileInfoMapper.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/yetta/pilipili/dao/GroupInfoMapper.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/yetta/pilipili/dao/HistoryInfoMapper.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/yetta/pilipili/dao/NavInfoMapper.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/yetta/pilipili/dao/PlayerInfoMapper.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/yetta/pilipili/dao/QiniuInfoMapper.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/yetta/pilipili/dao/ReplyInfoMapper.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/yetta/pilipili/dao/SlideInfoMapper.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/yetta/pilipili/dao/StarInfoMapper.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/yetta/pilipili/dao/TagInfoMapper.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/yetta/pilipili/dao/TemplateInfoMapper.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/yetta/pilipili/dao/TypeFieldMapper.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/yetta/pilipili/dao/TypeInfoMapper.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/yetta/pilipili/dao/UserProfileInfoMapper.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/yetta/pilipili/dao/VideoInfoMapper.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/yetta/pilipili/dao/WebInfoMapper.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/yetta/pilipili/exception/SystemException.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/yetta/pilipili/service/ActivateInfoService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/yetta/pilipili/service/CommentInfoService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/yetta/pilipili/service/EmailInfoService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/yetta/pilipili/service/MediaInfoService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/yetta/pilipili/service/NavInfoService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/yetta/pilipili/service/ReplyInfoService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/yetta/pilipili/service/SeoInfoService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/yetta/pilipili/service/TemplateInfoService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/yetta/pilipili/service/TypeInfoService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/yetta/pilipili/service/UserInfoService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/yetta/pilipili/service/UserProfileInfoService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/yetta/pilipili/service/VideoInfoService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/yetta/pilipili/service/WebInfoService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/yetta/pilipili/service/impl/ActivateInfoServiceImpl.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/yetta/pilipili/service/impl/CommentInfoServiceImpl.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/yetta/pilipili/service/impl/EmailInfoServiceImpl.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/yetta/pilipili/service/impl/FieldInfoService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/yetta/pilipili/service/impl/GroupInfoServiceImpl.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/yetta/pilipili/service/impl/MediaInfoServiceImpl.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/yetta/pilipili/service/impl/NavInfoServiceImpl.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/yetta/pilipili/service/impl/PlayerInfoService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/yetta/pilipili/service/impl/QiniuInfoService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/yetta/pilipili/service/impl/ReplyInfoServiceImpl.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/yetta/pilipili/service/impl/SeoInfoServiceImpl.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/yetta/pilipili/service/impl/TagInfoService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/yetta/pilipili/service/impl/TemplateInfoServiceImpl.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/yetta/pilipili/service/impl/TypeFieldService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/yetta/pilipili/service/impl/TypeInfoServiceImpl.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/yetta/pilipili/service/impl/UserCookieInfoServiceImpl.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/yetta/pilipili/service/impl/UserInfoServiceImpl.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/yetta/pilipili/service/impl/UserProfileInfoServiceImpl.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/yetta/pilipili/service/impl/VideoInfoServiceImpl.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/yetta/pilipili/service/impl/WebInfoServiceImpl.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/yetta/pilipili/test/RedisTest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/yetta/pilipili/test/Test.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/yetta/pilipili/util/AESEncryption.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/yetta/pilipili/util/ErrorMsg.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/yetta/pilipili/util/GetIp.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/yetta/pilipili/util/ImgBase64.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/yetta/pilipili/util/MD5.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/yetta/pilipili/util/Result.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/yetta/pilipili/util/SaveImg.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/error/404.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/index.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/play/dongman.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/play/movie.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/play/mv.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/play/tv.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/profile/dongman.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/profile/movie.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/profile/tv.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/rank/list_rank.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/search/search.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/user/accountset.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/user/avatar.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/user/find_pwd.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/user/login.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/user/login_page.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/user/register_page.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/json-lib-2.4-jdk15.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/default/bootstrap-3.3.7-dist/css/bootstrap-theme.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/default/bootstrap-3.3.7-dist/css/bootstrap-theme.css.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/default/bootstrap-3.3.7-dist/css/bootstrap-theme.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/default/bootstrap-3.3.7-dist/css/bootstrap-theme.min.css.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/default/bootstrap-3.3.7-dist/css/bootstrap.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/default/bootstrap-3.3.7-dist/css/bootstrap.css.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/default/bootstrap-3.3.7-dist/css/bootstrap.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/default/bootstrap-3.3.7-dist/css/bootstrap.min.css.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/default/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/default/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/default/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/default/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/default/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.woff2" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/default/bootstrap-3.3.7-dist/js/bootstrap.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/default/bootstrap-3.3.7-dist/js/bootstrap.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/default/bootstrap-3.3.7-dist/js/npm.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/default/css/danmu.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/default/css/loginreg.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/default/css/search.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/default/images/ad1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/default/images/akari.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/default/images/banner.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/default/images/feedback_1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/default/images/feedback_2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/default/images/goTopBtn.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/default/images/gradient.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/default/images/home.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/default/images/ico1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/default/images/ico10.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/default/images/ico11.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/default/images/ico12.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/default/images/ico2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/default/images/ico3.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/default/images/ico4.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/default/images/ico5.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/default/images/ico6.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/default/images/ico7.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/default/images/ico8.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/default/images/ico9.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/default/images/kn.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/default/images/loading.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/default/images/loadnone.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/default/images/login-test.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/default/images/login-tn.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/default/images/logo.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/default/images/logo_s.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/default/images/ranking-red.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/default/images/search-blue.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/default/images/step-test10.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/default/images/step-test2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/default/images/step-test4.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/default/images/step-test5.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/default/images/step-test6.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/default/images/step-test8.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/default/images/step-test9.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/default/images/upload.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/default/javaex/m/css/fonts/icomoon.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/default/javaex/m/css/fonts/icomoon.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/default/javaex/m/css/fonts/icomoon.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/default/javaex/m/css/fonts/icomoon.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/default/javaex/m/css/icomoon.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/default/javaex/m/css/style.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/default/javaex/m/images/home_bg.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/default/javaex/m/images/link-arrow.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/default/javaex/m/images/loading.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/default/javaex/m/images/loading.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/default/javaex/m/images/logo.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/default/javaex/m/images/more.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/default/javaex/m/images/user_small.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/default/javaex/m/images/wave1.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/default/javaex/m/images/wave2.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/default/javaex/m/js/common.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/default/javaex/m/js/flexible.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/default/javaex/m/js/javaex-formVerify.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/default/javaex/m/js/javaex.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/default/javaex/m/lib/jquery-3.2.1.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/default/javaex/pc/css/animate.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/default/javaex/pc/css/common.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/default/javaex/pc/css/fonts/icomoon.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/default/javaex/pc/css/fonts/icomoon.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/default/javaex/pc/css/fonts/icomoon.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/default/javaex/pc/css/fonts/icomoon.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/default/javaex/pc/css/icomoon.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/default/javaex/pc/css/skin/tina.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/default/javaex/pc/images/arrow-down.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/default/javaex/pc/images/arrow-left.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/default/javaex/pc/images/arrow-right.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/default/javaex/pc/images/arrow-up.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/default/javaex/pc/images/calendar.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/default/javaex/pc/images/close.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/default/javaex/pc/images/date_color.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/default/javaex/pc/images/default.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/default/javaex/pc/images/edit.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/default/javaex/pc/images/grey.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/default/javaex/pc/images/images.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/default/javaex/pc/images/javaex-loading.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/default/javaex/pc/images/loading-white.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/default/javaex/pc/images/loading.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/default/javaex/pc/images/max.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/default/javaex/pc/images/min.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/default/javaex/pc/images/rank.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/default/javaex/pc/images/revert.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/default/javaex/pc/images/upAvatar.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/default/javaex/pc/images/user.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/default/javaex/pc/js/common.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/default/javaex/pc/js/javaex-formVerify.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/default/javaex/pc/js/javaex.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/default/javaex/pc/lib/highlight.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/default/javaex/pc/lib/highlight.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/default/javaex/pc/lib/jquery-1.7.2.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/default/javaex/pc/lib/jquery-3.3.1.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/default/js/cookie.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/default/js/danmu.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/default/js/jquery.SuperSlide.2.1.1.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/default/vide7.1.0/css/video-js.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/default/vide7.1.0/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/default/vide7.1.0/jquery插件库.url" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/default/vide7.1.0/js/video.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/default/vide7.1.0/js/videojs-ie8.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/default/vide7.1.0/js/zh-CN.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/default/vide7.1.0/js/zh-CN.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/default/vide7.1.0/m.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/default/vide7.1.0/www.jq22.com.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/favicon.ico" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/com/yetta/pilipili/dao/ApiInfoMapperTest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/com/yetta/pilipili/dao/ChannelInfoMapperTest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/com/yetta/pilipili/dao/CollectionInfoMapperTest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/com/yetta/pilipili/dao/CommentInfoMapperTest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/com/yetta/pilipili/dao/EmailInfoMapperTest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/com/yetta/pilipili/dao/FieldInfoMapperTest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/com/yetta/pilipili/dao/FieldProfileInfoMapperTest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/com/yetta/pilipili/dao/GroupInfoMapperTest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/com/yetta/pilipili/dao/HistoryInfoMapperTest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/com/yetta/pilipili/dao/MediaInfoMapperTest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/com/yetta/pilipili/dao/NavInfoMapperTest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/com/yetta/pilipili/dao/PlayerInfoMapperTest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/com/yetta/pilipili/dao/QiniuInfoMapperTest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/com/yetta/pilipili/dao/ReplyInfoMapperTest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/com/yetta/pilipili/dao/SeoInfoMapperTest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/com/yetta/pilipili/dao/SlideInfoMapperTest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/com/yetta/pilipili/dao/StarInfoMapperTest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/com/yetta/pilipili/dao/TagInfoMapperTest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/com/yetta/pilipili/dao/TemplateInfoMapperTest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/com/yetta/pilipili/dao/TypeFieldMapperTest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/com/yetta/pilipili/dao/TypeInfoMapperTest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/com/yetta/pilipili/dao/UserInfoMapperTest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/com/yetta/pilipili/dao/UserProfileInfoMapperTest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/com/yetta/pilipili/dao/VideoInfoMapperTest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/com/yetta/pilipili/dao/WebInfoMapperTest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/com/yetta/pilipili/service/impl/EmailInfoServiceImplTest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/com/yetta/pilipili/service/impl/SeoInfoServiceImplTest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/com/yetta/pilipili/service/impl/TemplateInfoServiceImplTest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/com/yetta/pilipili/service/impl/UserInfoServiceImplTest.java" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/pilipili_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/pilipili_war_exploded.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/8292331b-e3bf-4dbb-94cd-9dbbcb1a9e7c.xml" afterPath="$PROJECT_DIR$/.idea/dataSources/8292331b-e3bf-4dbb-94cd-9dbbcb1a9e7c.xml" />
+      <change beforePath="$PROJECT_DIR$/D:/logs/log4j.log" afterPath="$PROJECT_DIR$/D:/logs/log4j.log" />
+      <change beforePath="$PROJECT_DIR$/pilipili.iml" afterPath="$PROJECT_DIR$/pilipili.iml" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yetta/pilipili/controller/test/Test.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yetta/pilipili/dao/activate_info/ActivateInfoMapper.java" afterPath="$PROJECT_DIR$/src/main/java/com/yetta/pilipili/dao/ActivateInfoMapper.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yetta/pilipili/dao/activate_info/activateInfoMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/mappers/activateInfoMapper.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yetta/pilipili/dao/dd/apiInfoMapper.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yetta/pilipili/dao/dd/channelInfoMapper.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yetta/pilipili/dao/dd/collectionInfoMapper.java" afterPath="$PROJECT_DIR$/src/main/java/com/yetta/pilipili/dao/CollectionInfoMapper.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yetta/pilipili/dao/dd/commentInfoMapper.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yetta/pilipili/dao/dd/emailInfoMapper.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yetta/pilipili/dao/dd/fieldInfoMapper.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yetta/pilipili/dao/dd/fieldProfileInfoMapper.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yetta/pilipili/dao/dd/groupInfoMapper.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yetta/pilipili/dao/dd/historyInfoMapper.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yetta/pilipili/dao/dd/mediaInfoMapper.java" afterPath="$PROJECT_DIR$/src/main/java/com/yetta/pilipili/dao/MediaInfoMapper.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yetta/pilipili/dao/dd/navInfoMapper.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yetta/pilipili/dao/dd/playerInfoMapper.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yetta/pilipili/dao/dd/qiniuInfoMapper.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yetta/pilipili/dao/dd/replyInfoMapper.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yetta/pilipili/dao/dd/seoInfoMapper.java" afterPath="$PROJECT_DIR$/src/main/java/com/yetta/pilipili/dao/SeoInfoMapper.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yetta/pilipili/dao/dd/slideInfoMapper.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yetta/pilipili/dao/dd/starInfoMapper.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yetta/pilipili/dao/dd/tagInfoMapper.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yetta/pilipili/dao/dd/templateInfoMapper.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yetta/pilipili/dao/dd/typeFieldMapper.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yetta/pilipili/dao/dd/typeInfoMapper.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yetta/pilipili/dao/dd/userInfoMapper.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yetta/pilipili/dao/dd/userProfileInfoMapper.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yetta/pilipili/dao/dd/videoInfoMapper.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yetta/pilipili/dao/dd/webInfoMapper.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yetta/pilipili/dao/test/TestDao.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yetta/pilipili/dao/test/TestMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/mappers/TestMapper.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yetta/pilipili/entity/apiInfo.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yetta/pilipili/entity/channelInfo.java" afterPath="$PROJECT_DIR$/src/main/java/com/yetta/pilipili/entity/ChannelInfo.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yetta/pilipili/entity/collectionInfo.java" afterPath="$PROJECT_DIR$/src/main/java/com/yetta/pilipili/entity/CollectionInfo.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yetta/pilipili/entity/commentInfo.java" afterPath="$PROJECT_DIR$/src/main/java/com/yetta/pilipili/entity/CommentInfo.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yetta/pilipili/entity/emailInfo.java" afterPath="$PROJECT_DIR$/src/main/java/com/yetta/pilipili/entity/EmailInfo.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yetta/pilipili/entity/fieldInfo.java" afterPath="$PROJECT_DIR$/src/main/java/com/yetta/pilipili/entity/FieldInfo.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yetta/pilipili/entity/fieldProfileInfo.java" afterPath="$PROJECT_DIR$/src/main/java/com/yetta/pilipili/entity/FieldProfileInfo.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yetta/pilipili/entity/groupInfo.java" afterPath="$PROJECT_DIR$/src/main/java/com/yetta/pilipili/entity/GroupInfo.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yetta/pilipili/entity/historyInfo.java" afterPath="$PROJECT_DIR$/src/main/java/com/yetta/pilipili/entity/HistoryInfo.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yetta/pilipili/entity/mediaInfo.java" afterPath="$PROJECT_DIR$/src/main/java/com/yetta/pilipili/entity/MediaInfo.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yetta/pilipili/entity/navInfo.java" afterPath="$PROJECT_DIR$/src/main/java/com/yetta/pilipili/entity/NavInfo.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yetta/pilipili/entity/playerInfo.java" afterPath="$PROJECT_DIR$/src/main/java/com/yetta/pilipili/entity/PlayerInfo.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yetta/pilipili/entity/qiniuInfo.java" afterPath="$PROJECT_DIR$/src/main/java/com/yetta/pilipili/entity/QiniuInfo.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yetta/pilipili/entity/replyInfo.java" afterPath="$PROJECT_DIR$/src/main/java/com/yetta/pilipili/entity/ReplyInfo.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yetta/pilipili/entity/seoInfo.java" afterPath="$PROJECT_DIR$/src/main/java/com/yetta/pilipili/entity/SeoInfo.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yetta/pilipili/entity/slideInfo.java" afterPath="$PROJECT_DIR$/src/main/java/com/yetta/pilipili/entity/SlideInfo.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yetta/pilipili/entity/starInfo.java" afterPath="$PROJECT_DIR$/src/main/java/com/yetta/pilipili/entity/StarInfo.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yetta/pilipili/entity/tagInfo.java" afterPath="$PROJECT_DIR$/src/main/java/com/yetta/pilipili/entity/TagInfo.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yetta/pilipili/entity/templateInfo.java" afterPath="$PROJECT_DIR$/src/main/java/com/yetta/pilipili/entity/TemplateInfo.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yetta/pilipili/entity/typeField.java" afterPath="$PROJECT_DIR$/src/main/java/com/yetta/pilipili/entity/TypeField.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yetta/pilipili/entity/typeInfo.java" afterPath="$PROJECT_DIR$/src/main/java/com/yetta/pilipili/entity/TypeInfo.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yetta/pilipili/entity/userInfo.java" afterPath="$PROJECT_DIR$/src/main/java/com/yetta/pilipili/entity/UserInfo.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yetta/pilipili/entity/userProfileInfo.java" afterPath="$PROJECT_DIR$/src/main/java/com/yetta/pilipili/entity/UserProfileInfo.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yetta/pilipili/entity/videoInfo.java" afterPath="$PROJECT_DIR$/src/main/java/com/yetta/pilipili/entity/VideoInfo.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yetta/pilipili/entity/webInfo.java" afterPath="$PROJECT_DIR$/src/main/java/com/yetta/pilipili/entity/WebInfo.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yetta/pilipili/exception/AfterException.java" afterPath="$PROJECT_DIR$/src/main/java/com/yetta/pilipili/exception/SystemExceptionResolver.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yetta/pilipili/interceptor/InitInterceptor.java" afterPath="$PROJECT_DIR$/src/main/java/com/yetta/pilipili/interceptor/InitInterceptor.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yetta/pilipili/service/test/TestServiceImpl.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yetta/pilipili/task/Quartz.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/db.properties" afterPath="$PROJECT_DIR$/src/main/resources/db.properties" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mappers/apiInfoMapper.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mappers/channelInfoMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/mappers/channelInfoMapper.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mappers/collectionInfoMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/mappers/collectionInfoMapper.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mappers/commentInfoMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/mappers/commentInfoMapper.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mappers/emailInfoMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/mappers/emailInfoMapper.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mappers/fieldInfoMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/mappers/fieldInfoMapper.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mappers/fieldProfileInfoMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/mappers/fieldProfileInfoMapper.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mappers/groupInfoMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/mappers/groupInfoMapper.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mappers/historyInfoMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/mappers/historyInfoMapper.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mappers/mediaInfoMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/mappers/mediaInfoMapper.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mappers/navInfoMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/mappers/navInfoMapper.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mappers/playerInfoMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/mappers/playerInfoMapper.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mappers/qiniuInfoMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/mappers/qiniuInfoMapper.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mappers/replyInfoMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/mappers/replyInfoMapper.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mappers/seoInfoMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/mappers/seoInfoMapper.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mappers/slideInfoMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/mappers/slideInfoMapper.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mappers/starInfoMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/mappers/starInfoMapper.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mappers/tagInfoMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/mappers/tagInfoMapper.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mappers/templateInfoMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/mappers/templateInfoMapper.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mappers/typeFieldMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/mappers/typeFieldMapper.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mappers/typeInfoMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/mappers/typeInfoMapper.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mappers/userInfoMapper.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mappers/userProfileInfoMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/mappers/userProfileInfoMapper.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mappers/videoInfoMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/mappers/videoInfoMapper.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mappers/webInfoMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/mappers/webInfoMapper.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mgbConfigure.xml" afterPath="$PROJECT_DIR$/src/main/resources/mgbConfigure.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" afterPath="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/spring-mvc.xml" afterPath="$PROJECT_DIR$/src/main/resources/spring-mvc.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/spring-mybatis.xml" afterPath="$PROJECT_DIR$/src/main/resources/spring-mybatis.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/spring-quartz.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/jsp/test.jsp" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/yetta/pilipili/dao/activate_info/ActivateInfoMapperTest.java" afterPath="$PROJECT_DIR$/src/test/com/yetta/pilipili/dao/ActivateInfoMapperTest.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/yetta/pilipili/service/test/TestServiceImplTest.java" afterPath="" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="pilipili@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="pilipili@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="pilipili@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="pilipili: schema" type="c314c289:MysqlImplModel$Schema" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="pilipili" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="VideoInfoAction.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/yetta/pilipili/controller/admin/VideoInfoAction.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2646">
+              <caret line="166" column="8" lean-forward="false" selection-start-line="166" selection-start-column="8" selection-end-line="166" selection-end-column="8" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/index.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="896" column="4" lean-forward="true" selection-start-line="896" selection-start-column="4" selection-end-line="896" selection-end-column="4" />
+              <folding>
+                <marker date="1535462336641" expanded="true" signature="41727:41743" ph="..." />
+                <marker date="1535462336641" expanded="true" signature="42482:42498" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="common.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/common/common.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="324">
+              <caret line="18" column="86" lean-forward="false" selection-start-line="18" selection-start-column="86" selection-end-line="18" selection-end-column="86" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bootstrap.min.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/static/default/bootstrap-3.3.7-dist/js/bootstrap.min.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tina.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/static/default/javaex/pc/css/skin/tina.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2178">
+              <caret line="121" column="1" lean-forward="false" selection-start-line="121" selection-start-column="1" selection-end-line="121" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="common.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/static/default/javaex/pc/css/common.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3204">
+              <caret line="178" column="1" lean-forward="false" selection-start-line="178" selection-start-column="1" selection-end-line="178" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SystemExceptionResolver.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/yetta/pilipili/exception/SystemExceptionResolver.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="558">
+              <caret line="41" column="26" lean-forward="false" selection-start-line="41" selection-start-column="26" selection-end-line="41" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="spring-mybatis.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/spring-mybatis.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Test.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/yetta/pilipili/test/Test.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="612">
+              <caret line="34" column="17" lean-forward="false" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
+              <folding>
+                <element signature="e#1215#1216#0" expanded="true" />
+                <element signature="e#1259#1260#0" expanded="true" />
+                <element signature="e#1284#1285#0" expanded="true" />
+                <element signature="e#1327#1328#0" expanded="true" />
+                <element signature="e#1428#1429#0" expanded="true" />
+                <element signature="e#1472#1473#0" expanded="true" />
+                <element signature="e#1497#1498#0" expanded="true" />
+                <element signature="e#1542#1543#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="spring-beans.schema" />
+        <option value="FxmlFile" />
+        <option value="Interface" />
+        <option value="Jsp File" />
+        <option value="JavaScript File" />
+        <option value="Class" />
+        <option value="JUnit4 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>login.json</find>
+      <find>selectUser</find>
+      <find>user.action</find>
+      <find>logo</find>
+      <find>妖气山后台管理</find>
+      <find>index</find>
+      <find>center</find>
+      <find>save</find>
+      <find>button</find>
+      <find>upload_avatar_by_yuancheng</find>
+      <find>add</find>
+      <find>data-url</find>
+      <find>file</find>
+      <find>edit</find>
+      <find>time</find>
+      <find>upload</find>
+      <find>lastLoginTime</find>
+      <find>form</find>
+      <find>position().top</find>
+      <find>register</find>
+      <find>tip danger</find>
+      <find>date1</find>
+      <find>main</find>
+      <find>1340</find>
+      <find>v</find>
+      <find>http://173.javaex.cn/FmimHy5MLxEtcAg5Tm72vbT0eu_f</find>
+      <find>http://173.javaex.cn/FuFpI3FQhIUejcz9tMgUl_aj3pbf</find>
+      <find>http://173.javaex.cn/FoY7KOxNyZPPn7AQ_whR5P3SvGxl</find>
+      <find>http://173.javaex.cn/FgM-UfvaZEVK4mnlPIisI0wPASW6</find>
+      <find>juhe4</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/user/login_page.jsp" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yetta/pilipili/test/RedisTest.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/play/dongman.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yetta/pilipili/controller/APIController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/common/footer.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/index.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/profile/dongman.jsp" />
+        <option value="$PROJECT_DIR$/src/main/resources/mappers/videoInfoMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/common/header.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yetta/pilipili/util/MD5.java" />
+        <option value="$PROJECT_DIR$/src/test/com/yetta/pilipili/service/impl/UserInfoServiceImplTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yetta/pilipili/service/impl/GroupInfoServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yetta/pilipili/controller/admin/GroupInfoAction.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yetta/pilipili/service/TypeInfoService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yetta/pilipili/service/impl/TypeInfoServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yetta/pilipili/service/impl/FieldInfoService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yetta/pilipili/service/impl/TypeFieldService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yetta/pilipili/service/impl/TagInfoService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yetta/pilipili/controller/admin/MediaInfoAction.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/admin/index.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yetta/pilipili/controller/admin/AdminAction.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/admin/common/nav.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/admin/menu/index.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/admin/login.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/admin/user_info/list_ban.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/admin/user_info/list_normal.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yetta/pilipili/controller/UserProfileInfoController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yetta/pilipili/service/impl/QiniuInfoService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yetta/pilipili/controller/admin/QiniuInfoAction.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yetta/pilipili/util/SaveImg.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yetta/pilipili/dao/UserInfoMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yetta/pilipili/service/impl/UserInfoServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yetta/pilipili/service/UserInfoService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yetta/pilipili/controller/admin/UserAction.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/admin/user_info/edit.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yetta/pilipili/service/impl/EmailInfoServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yetta/pilipili/service/EmailInfoService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yetta/pilipili/controller/admin/EmailInfoAction.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/admin/email_info/list.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yetta/pilipili/service/MediaInfoService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yetta/pilipili/service/impl/MediaInfoServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yetta/pilipili/service/impl/PlayerInfoService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yetta/pilipili/service/VideoInfoService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yetta/pilipili/service/impl/VideoInfoServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yetta/pilipili/controller/admin/VideoInfoAction.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yetta/pilipili/exception/SystemExceptionResolver.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yetta/pilipili/interceptor/InitInterceptor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yetta/pilipili/test/Test.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/common/common.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/index.jsp" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="pilipili Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="522" />
+    <option name="y" value="59" />
+    <option name="width" value="960" />
+    <option name="height" value="1044" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="pilipili" type="58d84e3e:PackageViewProjectNode" />
+              <item name="pilipili" type="616d4139:PackageViewModuleNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="pilipili" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pilipili" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pilipili" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pilipili" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pilipili" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pilipili" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pilipili" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pilipili" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pilipili" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pilipili" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pilipili" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pilipili" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="yetta" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pilipili" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pilipili" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="yetta" type="462c0819:PsiDirectoryNode" />
+              <item name="pilipili" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pilipili" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pilipili" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="yetta" type="462c0819:PsiDirectoryNode" />
+              <item name="pilipili" type="462c0819:PsiDirectoryNode" />
+              <item name="interceptor" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pilipili" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pilipili" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="yetta" type="462c0819:PsiDirectoryNode" />
+              <item name="pilipili" type="462c0819:PsiDirectoryNode" />
+              <item name="mgb" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pilipili" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pilipili" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pilipili" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pilipili" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pilipili" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pilipili" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pilipili" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pilipili" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="default" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="AndroidView">
+        <subPane>
+          <expand>
+            <path>
+              <item name="pilipili" type="1abcf292:AndroidViewProjectNode" />
+              <item name="pilipili" type="1039202d:NonAndroidModuleNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.30195177" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.yetta.pilipili.service.impl" />
+      <recent name="com.yetta.pilipili.dao" />
+      <recent name="com.yetta.pilipili.dao.activate_info" />
+      <recent name="com.yetta.pilipili.service.test" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/com/yetta/pilipili/service/impl" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/yetta/pilipili/controller/admin" />
+      <recent name="$PROJECT_DIR$/src/main/webapp/static/default/css" />
+      <recent name="$PROJECT_DIR$/src/main/webapp/static/default/images" />
+      <recent name="$PROJECT_DIR$/src/main/webapp/static/default/javaex/pc/lib" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.yetta.pilipili.dao" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/webapp/static/default/images" />
+      <recent name="$PROJECT_DIR$/src/main/webapp/static/default" />
+      <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/rank" />
+      <recent name="$PROJECT_DIR$/src/main/webapp/static/default/css" />
+      <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.Tomcat">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+    </configuration>
+    <configuration name="GenMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.yetta.pilipili.mgb.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.yetta.pilipili.mgb.GenMain" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="pilipili" />
+      <envs />
+    </configuration>
+    <configuration name="MD5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.yetta.pilipili.util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.yetta.pilipili.util.MD5" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="pilipili" />
+      <envs />
+    </configuration>
+    <configuration name="RedisTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.yetta.pilipili.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.yetta.pilipili.test.RedisTest" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="pilipili" />
+      <envs />
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.yetta.pilipili.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.yetta.pilipili.test.Test" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="pilipili" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+    </configuration>
+    <configuration name="UserInfoServiceImplTest.selectUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.yetta.pilipili.service.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="pilipili" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.yetta.pilipili.service.impl" />
+      <option name="MAIN_CLASS_NAME" value="com.yetta.pilipili.service.impl.UserInfoServiceImplTest" />
+      <option name="METHOD_NAME" value="selectUser" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration name="Tomcat" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.8" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
+      <deployment>
+        <artifact name="pilipili:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+        <file path="$PROJECT_DIR$/../statics">
+          <settings>
+            <option name="CONTEXT_PATH" value="/statics" />
+          </settings>
+        </file>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_pilipili" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="35003" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method>
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="pilipili:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+    </configuration>
+    <list size="6">
+      <item index="0" class="java.lang.String" itemvalue="Tomcat Server.Tomcat" />
+      <item index="1" class="java.lang.String" itemvalue="Application.GenMain" />
+      <item index="2" class="java.lang.String" itemvalue="Application.RedisTest" />
+      <item index="3" class="java.lang.String" itemvalue="Application.MD5" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.UserInfoServiceImplTest.selectUser" />
+      <item index="5" class="java.lang.String" itemvalue="Application.Test" />
+    </list>
+    <recent_temporary>
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Application.Test" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.UserInfoServiceImplTest.selectUser" />
+        <item index="2" class="java.lang.String" itemvalue="Application.MD5" />
+        <item index="3" class="java.lang.String" itemvalue="Application.RedisTest" />
+        <item index="4" class="java.lang.String" itemvalue="Application.GenMain" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SpringGeneralSettings">
+    <option name="allowAutoConfigurationMode" value="true" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>$USER_HOME$/.subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b666c68c-7631-4150-adcf-a049fedeab4f" name="Default" comment="" />
+      <created>1534214370863</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1534214370863</updated>
+      <workItem from="1534214372406" duration="268000" />
+      <workItem from="1534214662967" duration="30497000" />
+      <workItem from="1534292976529" duration="30997000" />
+      <workItem from="1534379300605" duration="15169000" />
+      <workItem from="1534403600912" duration="21852000" />
+      <workItem from="1534466215930" duration="5041000" />
+      <workItem from="1534472323723" duration="23000" />
+      <workItem from="1534472460037" duration="80000" />
+      <workItem from="1534472681827" duration="17872000" />
+      <workItem from="1534592600806" duration="8746000" />
+      <workItem from="1534676151745" duration="11055000" />
+      <workItem from="1534725062271" duration="37523000" />
+      <workItem from="1534811104229" duration="11914000" />
+      <workItem from="1534831434990" duration="23901000" />
+      <workItem from="1534898130481" duration="1858000" />
+      <workItem from="1534919949416" duration="10487000" />
+      <workItem from="1534936354255" duration="2830000" />
+      <workItem from="1534939846109" duration="7265000" />
+      <workItem from="1534984119279" duration="31232000" />
+      <workItem from="1535034690582" duration="423000" />
+      <workItem from="1535072509822" duration="22411000" />
+      <workItem from="1535281459949" duration="11522000" />
+      <workItem from="1535293143993" duration="594000" />
+      <workItem from="1535329968798" duration="6796000" />
+      <workItem from="1535338352385" duration="24774000" />
+      <workItem from="1535417561017" duration="3761000" />
+      <workItem from="1535446527619" duration="11354000" />
+      <workItem from="1535508432008" duration="312000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="EmailInfoServiceImplTest_emailTest - 2018.08.19 at 20h 21m 01s.xml">
+      <configuration name="EmailInfoServiceImplTest.emailTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserInfoMapperTest_insert - 2018.08.18 at 21h 00m 44s.xml">
+      <configuration name="UserInfoMapperTest.insert" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserInfoMapperTest_insert - 2018.08.18 at 21h 03m 23s.xml">
+      <configuration name="UserInfoMapperTest.insert" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserInfoServiceImplTest_selectUser - 2018.08.27 at 11h 09m 23s.xml">
+      <configuration name="UserInfoServiceImplTest.selectUser" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserInfoServiceImplTest_selectUser - 2018.08.27 at 11h 10m 16s.xml">
+      <configuration name="UserInfoServiceImplTest.selectUser" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserInfoServiceImplTest_selectUser - 2018.08.27 at 11h 10m 38s.xml">
+      <configuration name="UserInfoServiceImplTest.selectUser" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserInfoServiceImplTest_selectUser - 2018.08.27 at 11h 11m 21s.xml">
+      <configuration name="UserInfoServiceImplTest.selectUser" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserInfoServiceImplTest_selectUser - 2018.08.27 at 11h 12m 20s.xml">
+      <configuration name="UserInfoServiceImplTest.selectUser" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserInfoServiceImplTest_selectUser - 2018.08.27 at 11h 12m 39s.xml">
+      <configuration name="UserInfoServiceImplTest.selectUser" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WebInfoMapperTest_update - 2018.08.16 at 20h 06m 52s.xml">
+      <configuration name="WebInfoMapperTest.update" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="350557000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="522" y="59" width="1920" height="1044" extended-state="7" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32967034" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33846155" sideWeight="0.50426894" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32857144" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32977587" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32967034" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30439562" sideWeight="0.4967983" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32967034" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32857144" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1638207" sideWeight="0.45846155" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22678763" sideWeight="0.5354478" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.12540022" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2497332" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2497332" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23479189" sideWeight="0.5415385" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33846155" sideWeight="0.49573106" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32967034" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33846155" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32967034" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/yetta/pilipili/service/impl/UserInfoServiceImpl.java</url>
+          <line>577</line>
+          <properties />
+          <option name="timeStamp" value="203" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/yetta/pilipili/service/impl/UserInfoServiceImpl.java</url>
+          <line>578</line>
+          <properties />
+          <option name="timeStamp" value="204" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/yetta/pilipili/service/impl/EmailInfoServiceImpl.java</url>
+          <line>268</line>
+          <properties />
+          <option name="timeStamp" value="207" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="208" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/admin/common/nav.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="972">
+          <caret line="54" column="26" lean-forward="true" selection-start-line="54" selection-start-column="26" selection-end-line="54" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yetta/pilipili/controller/ReplyInfoController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="22" column="13" lean-forward="false" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/admin/user_info/list_not_active.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-594">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/admin/user_info/list_ban.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="265" column="19" lean-forward="true" selection-start-line="265" selection-start-column="19" selection-end-line="265" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="48" column="4" lean-forward="false" selection-start-line="48" selection-start-column="4" selection-end-line="48" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yetta/pilipili/controller/admin/GroupInfoAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="49" column="49" lean-forward="false" selection-start-line="49" selection-start-column="49" selection-end-line="49" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yetta/pilipili/controller/admin/AdminAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="75" column="18" lean-forward="false" selection-start-line="75" selection-start-column="17" selection-end-line="75" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/admin/user_info/list_normal.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3171">
+          <caret line="50" column="45" lean-forward="true" selection-start-line="50" selection-start-column="45" selection-end-line="50" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yetta/pilipili/controller/UserProfileInfoController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="50" column="32" lean-forward="false" selection-start-line="50" selection-start-column="21" selection-end-line="50" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/user/avatar.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="392">
+          <caret line="128" column="39" lean-forward="false" selection-start-line="128" selection-start-column="31" selection-end-line="128" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yetta/pilipili/util/ImgBase64.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3">
+          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yetta/pilipili/dao/QiniuInfoMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="14" lean-forward="false" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yetta/pilipili/util/SaveImg.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yetta/pilipili/entity/UserInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="70" column="16" lean-forward="false" selection-start-line="70" selection-start-column="16" selection-end-line="70" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yetta/pilipili/service/impl/QiniuInfoService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="49" column="16" lean-forward="false" selection-start-line="49" selection-start-column="16" selection-end-line="49" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yetta/pilipili/controller/portal/PortalController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="77" column="30" lean-forward="false" selection-start-line="77" selection-start-column="22" selection-end-line="77" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yetta/pilipili/controller/admin/QiniuInfoAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="51" column="28" lean-forward="false" selection-start-line="51" selection-start-column="28" selection-end-line="51" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/2caa593a/8292331b-e3bf-4dbb-94cd-9dbbcb1a9e7c/pilipili.qiniu_info">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/user/register_page.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="128" column="79" lean-forward="false" selection-start-line="128" selection-start-column="71" selection-end-line="128" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yetta/pilipili/controller/UserInfoController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="45" column="54" lean-forward="false" selection-start-line="45" selection-start-column="54" selection-end-line="45" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/default/javaex/pc/js/javaex-formVerify.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="569">
+          <caret line="32" column="9" lean-forward="false" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yetta/pilipili/dao/UserInfoMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="80" column="0" lean-forward="false" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/default/javaex/pc/js/javaex.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="1" column="67631" lean-forward="false" selection-start-line="1" selection-start-column="67617" selection-end-line="1" selection-end-column="67631" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yetta/pilipili/service/UserInfoService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="38" column="9" lean-forward="false" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yetta/pilipili/service/impl/UserInfoServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="573" column="16" lean-forward="false" selection-start-line="573" selection-start-column="16" selection-end-line="573" selection-end-column="16" />
+          <folding>
+            <element signature="e#6273#6274#0" expanded="true" />
+            <element signature="e#6340#6341#0" expanded="true" />
+            <element signature="e#18074#18075#0" expanded="true" />
+            <element signature="e#18123#18124#0" expanded="true" />
+            <element signature="e#21950#21951#0" expanded="true" />
+            <element signature="e#22002#22003#0" expanded="true" />
+            <element signature="e#22135#22136#0" expanded="true" />
+            <element signature="e#22191#22192#0" expanded="true" />
+            <element signature="e#22321#22322#0" expanded="true" />
+            <element signature="e#22370#22371#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yetta/pilipili/service/impl/EmailInfoServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="276" column="0" lean-forward="false" selection-start-line="276" selection-start-column="0" selection-end-line="276" selection-end-column="0" />
+          <folding>
+            <element signature="e#8293#8294#0" expanded="true" />
+            <element signature="e#8338#8339#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yetta/pilipili/service/EmailInfoService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="16" column="23" lean-forward="false" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yetta/pilipili/controller/admin/EmailInfoAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="917">
+          <caret line="95" column="61" lean-forward="false" selection-start-line="95" selection-start-column="61" selection-end-line="95" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/admin/email_info/list.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="33" column="0" lean-forward="true" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/admin/user_info/edit.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="264" column="97" lean-forward="true" selection-start-line="264" selection-start-column="49" selection-end-line="264" selection-end-column="97" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yetta/pilipili/service/MediaInfoService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="10" lean-forward="false" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yetta/pilipili/service/impl/MediaInfoServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="485">
+          <caret line="412" column="42" lean-forward="false" selection-start-line="412" selection-start-column="42" selection-end-line="412" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yetta/pilipili/service/impl/PlayerInfoService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="665">
+          <caret line="67" column="40" lean-forward="false" selection-start-line="67" selection-start-column="40" selection-end-line="67" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yetta/pilipili/service/VideoInfoService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="21" column="45" lean-forward="false" selection-start-line="21" selection-start-column="45" selection-end-line="21" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yetta/pilipili/service/impl/VideoInfoServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3438">
+          <caret line="212" column="37" lean-forward="false" selection-start-line="212" selection-start-column="37" selection-end-line="212" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yetta/pilipili/interceptor/InitInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="12" column="85" lean-forward="false" selection-start-line="12" selection-start-column="85" selection-end-line="12" selection-end-column="85" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yetta/pilipili/controller/admin/UserAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3798">
+          <caret line="237" column="0" lean-forward="false" selection-start-line="237" selection-start-column="0" selection-end-line="237" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#2181#2191#0" expanded="false" />
+            <element signature="e#3279#3289#0" expanded="false" />
+            <element signature="e#4367#4377#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring-mvc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="702">
+          <caret line="39" column="60" lean-forward="false" selection-start-line="39" selection-start-column="60" selection-end-line="39" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yetta/pilipili/task/Quartz.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring-quartz.xml" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yetta/pilipili/exception/SystemExceptionResolver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="558">
+          <caret line="41" column="26" lean-forward="false" selection-start-line="41" selection-start-column="26" selection-end-line="41" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yetta/pilipili/test/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="34" column="17" lean-forward="false" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
+          <folding>
+            <element signature="e#1215#1216#0" expanded="true" />
+            <element signature="e#1259#1260#0" expanded="true" />
+            <element signature="e#1284#1285#0" expanded="true" />
+            <element signature="e#1327#1328#0" expanded="true" />
+            <element signature="e#1428#1429#0" expanded="true" />
+            <element signature="e#1472#1473#0" expanded="true" />
+            <element signature="e#1497#1498#0" expanded="true" />
+            <element signature="e#1542#1543#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring-mybatis.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yetta/pilipili/controller/admin/VideoInfoAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2646">
+          <caret line="166" column="8" lean-forward="false" selection-start-line="166" selection-start-column="8" selection-end-line="166" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/default/javaex/pc/css/skin/tina.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2178">
+          <caret line="121" column="1" lean-forward="false" selection-start-line="121" selection-start-column="1" selection-end-line="121" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/default/javaex/pc/css/common.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3204">
+          <caret line="178" column="1" lean-forward="false" selection-start-line="178" selection-start-column="1" selection-end-line="178" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/default/bootstrap-3.3.7-dist/js/npm.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/default/bootstrap-3.3.7-dist/js/bootstrap.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/common/common.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="18" column="86" lean-forward="false" selection-start-line="18" selection-start-column="86" selection-end-line="18" selection-end-column="86" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/default/images/henghaibao.webp" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="896" column="4" lean-forward="true" selection-start-line="896" selection-start-column="4" selection-end-line="896" selection-end-column="4" />
+          <folding>
+            <marker date="1535462336641" expanded="true" signature="41727:41743" ph="..." />
+            <marker date="1535462336641" expanded="true" signature="42482:42498" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArquillianSettingsConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>pilipili:war</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.30195177" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>10.0</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.30195177" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>pilipili</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.30195177" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>10.0</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: org.mybatis.generator:mybatis-generator-core:1.3.5</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.30195177" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

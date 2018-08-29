@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.yetta.pilipili.dao.UserCookieInfoMapper">
+
+  <resultMap id="UserCookieInfoMap" type="com.yetta.pilipili.entity.UserCookieInfo">
+    <result column="id" jdbcType="INTEGER" property="id" />
+    <result column="user_id" jdbcType="INTEGER" property="userId" />
+    <result column="session_id" jdbcType="VARCHAR" property="sessionId" />
+    <result column="create_time" jdbcType="TIMESTAMP" property="createTime" />
+  </resultMap>
+
+
+  <insert id="insert" parameterType="com.yetta.pilipili.entity.UserCookieInfo">
+    INSERT INTO user_cookie_info
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="userId !=null and userId !=''">user_id,</if>
+      <if test="sessionId !=null and sessionId !=''">session_id,</if>
+      <if test="createTime !=null">create_time,</if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="userId !=null and userId !=''">#{user_id},</if>
+      <if test="sessionId !=null and sessionId !=''">#{session_id},</if>
+      <if test="createTime !=null">#{create_time},</if>
+    </trim>
+
+  </insert>
+
+  <select id="selectByUserIdAndSessionId" resultMap="UserCookieInfoMap">
+    SELECT * FROM user_cookie_info WHERE user_id=#{userId} AND session_id=#{sessionId}
+  </select>
+</mapper>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.yetta.pilipili.dao.KeyWordInfoMapper">
+  <resultMap id="KeyWordInfoMap" type="com.yetta.pilipili.entity.KeyWordInfo">
+    <result column="id" jdbcType="INTEGER" property="id" />
+    <result column="content" jdbcType="VARCHAR" property="content" />
+  </resultMap>
+
+  <select id="list" resultMap="KeyWordInfoMap">
+    SELECT * FROM keyword_info ORDER BY id DESC limit 5
+  </select>
+  <insert id="insert">
+    INSERT INTO keyword_info
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="content != null and content !=''">content</if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="content !=null and content != ''">#{content}</if>
+    </trim>
+  </insert>
+
+  <delete id="deleteById">
+    DELETE FROM keyword_info WHERE id=#{id}
+  </delete>
+
+</mapper>
